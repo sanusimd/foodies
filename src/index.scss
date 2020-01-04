@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900&display=swap');
+@import url( 'https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Herr+Von+Muellerhoff&display=swap');
+@import "variable";
+@import "reset";
+@import "header";
+@import "topSection";
+@import "discover";
+@import "catering";
+@import "ourMenu";
+@import "recommend";
+@import "review";
+// @import "experts";
+// @import "reservation";
+// @import "footer";
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+  //  background: purple;
+}
+
+h1 {
+  font-weight: 100;
+  font-size: 50px;
+}
+
+.container{
+ width: 950px;
+  margin: 0 auto;
+}
+
+.home {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+

@@ -1,0 +1,66 @@
+.top-section {
+    height: 500px;
+    padding-top: 200px;
+    background-image:linear-gradient(rgba(22,22,22, 0.6),rgba(22,22,22, 0.6)) ,
+     url("http://www.anmolqf.com/wp-content/uploads/2017/09/organic1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    text-align: center;
+    
+    .main-heading{
+      font-family: 'Herr Von Muellerhoff', cursive;
+      font-size: 80px;
+      color: $primary-color;
+    }
+    
+    .sub-heading{
+      font-family: 'Playfair Display', serif;
+      font-size: 72px;
+      color: #ffffff;
+      font-weight: 600;
+      margin-bottom: 20px;
+    
+    }
+    .title{
+      font-size: 16px;
+      color: #ffffff;
+      margin-bottom: 40px;
+      display: inline-block;
+    }
+    
+    span{
+      display: inline-block;
+      width: 70px;
+      height: 1px;
+      background-color: #ffffff;
+      vertical-align: middle; 
+    }
+    .line-left{
+      margin-right: 40px; 
+    }
+    
+    .line-right{
+      margin-left: 40px; 
+    }
+    
+    
+    .btn-topSection{
+      margin-top: 40px;
+      
+      .btn-red{
+        text-decoration: none;
+        background-color: $primary-color;
+        color: #ffffff;
+        text-transform: uppercase;
+        width: 200px;
+        padding: 15px 30px;
+        font-size: 14px;
+      
+      }
+      
+    }
+    
+    
+    }
+    
