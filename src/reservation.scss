@@ -1,0 +1,33 @@
+.reservation {
+    background-image: linear-gradient(
+        rgba(22, 22, 22, 0.6),
+        rgba(22, 22, 22, 0.6)
+      ),
+      url("http://www.anmolqf.com/wp-content/uploads/2017/09/organic1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    padding: 70px;
+    
+  
+    .info {
+      text-align: center;
+      margin: 0 auto;
+  
+      &__title {
+        font-family: "Herr Von Muellerhoff", cursive;
+        color: $primary-color;
+        font-size: 54px;
+      }
+      &__heading {
+        color:#fff;
+        font-size: 44px;
+        font-family: "Playfair Display", serif;
+      }
+      &__stylish-line {
+        margin: 25px 0;
+      }
+    }
+  }
+  

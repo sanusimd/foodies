@@ -1,0 +1,85 @@
+.expert {
+    height: 600px;
+    padding: 50px;
+    // background:greenyellow ;
+  
+    .info {
+      text-align: center;
+      margin: 0 auto;
+  
+      h3 {
+        font-family: "Herr Von Muellerhoff", cursive;
+        color: $primary-color;
+        font-size: 54px;
+      }
+      h2 {
+        color: $secondary-color;
+        font-size: 44px;
+        font-family: "Playfair Display", serif;
+      }
+      .stylish-line {
+        margin: 25px 0;
+      }
+    }
+  
+    .expert-box {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+  
+      .expert-details {
+          cursor: pointer;
+  
+          &:hover{
+              color: $primary-color;
+              .fab{
+                  color: $primary-color;
+              }
+              .expert-info{
+                  .expert-position{
+                      color: #000;
+                  }
+              }
+  
+              
+          }
+        .image-box {
+            margin-right: 10px;
+            margin-bottom: 10px;
+          img{
+              width: 250px;
+              height: 250px;
+          }
+        }
+  
+        .expert-info {
+          text-align: center;
+          .expert-name{
+              font-size:18px;
+              margin-bottom: 5px;   
+          }
+  
+          .expert-position{
+              text-transform: capitalize;
+              color: #c0c0c0;
+  
+              
+          }
+  
+        }
+  
+        .expert-social-media {
+          text-align: center;
+          margin-top: 10px;
+          color: #c0c0c0;
+          .fab{
+              margin-right: 15px;
+          }
+          
+        }
+        
+      }
+    }
+  }
+  
