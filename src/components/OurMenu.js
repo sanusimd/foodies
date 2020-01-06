@@ -12,7 +12,7 @@ class OurMenu extends Component {
             <h3>Our Menu</h3>
             <h2>Choose Your Dish</h2>
             <img
-              src="/img/d-line.png"
+              src={require("../img/d-line.png")}
               className="stylish-line"
               alt={"stylish-line"}
             />
@@ -20,7 +20,7 @@ class OurMenu extends Component {
           <div className="menu--items">
             <div className="menu--item">
               <img
-                src="/img/menu-image-2.jpg"
+                src= {require("../img/menu-image-2.jpg")}
                 className="menu-image"
                 alt={"cooking"}
               />
@@ -36,7 +36,7 @@ class OurMenu extends Component {
 
             <div className="menu--item">
               <img
-                src="/img/menu-image-2.jpg"
+                src= {require("../img/menu-image-2.jpg")}
                 className="menu-image"
                 alt={"cooking"}
               />
@@ -52,7 +52,7 @@ class OurMenu extends Component {
 
             <div className="menu--item">
               <img
-                src="/img/menu-image-2.jpg"
+                src= {require("../img/menu-image-2.jpg")}
                 className="menu-image"
                 alt={"cooking"}
               />

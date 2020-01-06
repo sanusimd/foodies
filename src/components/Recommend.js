@@ -11,14 +11,14 @@ class Recommend extends Component {
             <div className="recommend-images">
               <div className="salad-image">
                 <img
-                  src="/img/pizaa-2.jpg"
+                  src= {require("../img/pizaa-2.jpg")}
                   className="pizza-2"
                   alt={"pizza-2"}
                 />
               </div>
               <div className="tea-image">
                 <img
-                  src="/img/pizza-3.jpg"
+                  src={require("../img/pizza-3.jpg")}
                   className="pizza-3"
                   alt={"pizza-3"}
                 />
@@ -28,7 +28,7 @@ class Recommend extends Component {
               <h3>Should to try</h3>
               <h2>Chef Recommend</h2>
               <img
-                src="/img/d-line.png"
+                src={require("../img/d-line.png")}
                 className="stylish-line"
                 alt={"stylish-line"}
               />

@@ -17,9 +17,10 @@ class Header extends Component {
               <div className="logo">FOODIE</div>
               <nav>
                 <NavLink to="/">Home</NavLink>
-                <NavLink to="/contact">Contact</NavLink>
+                <NavLink to="/menu">Menu</NavLink>
                 <NavLink to="/about">About</NavLink>
                 <NavLink to="/blog">Blog</NavLink>
+                <NavLink to="/contact">Contact</NavLink>
               </nav>
             </div>
           </div>

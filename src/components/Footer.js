@@ -20,14 +20,14 @@ class Footer extends Component {
           <div className="footer__mapbox--map"></div>
           <div className="footer__mapbox--info">
           <img
-              src="/img/logo.png"
+              src={require("../img/logo.png")}
               className="footer-logo"
               alt={"footer-logo"}
               
             />
             <h3>Location</h3>
             <img
-              src="/img/d-line.png"
+              src={require("../img/d-line.png")}
               className="stylish-line"
               alt={"stylish-line"}
             />
@@ -39,7 +39,7 @@ class Footer extends Component {
             <div className="box footer__box--about">
               <h3>About Us</h3>
               <img
-                src="/img/d-line.png"
+                src={require("../img/d-line.png")}
                 className="stylish-line"
                 alt={"stylish-line"}
               />
@@ -51,7 +51,7 @@ class Footer extends Component {
             <div className="box footer__box--hours">
               <h3>Opening Hours</h3>
               <img
-                src="/img/d-line.png"
+                src={require("../img/d-line.png")}
                 className="stylish-line"
                 alt={"stylish-line"}
               />
@@ -67,7 +67,7 @@ class Footer extends Component {
             <div className="box footer__box--contact">
               <h3>Contact Info</h3>
               <img
-                src="/img/d-line.png"
+                src={require("../img/d-line.png")}
                 className="stylish-line"
                 alt={"stylish-line"}
               />

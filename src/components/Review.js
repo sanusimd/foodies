@@ -26,7 +26,7 @@ class Review extends Component {
           </p>
           <div>
             <img
-              src="/img/d-line.png"
+              src={require("../img/d-line.png")}
               className="stylish-line"
               alt={"stylish-line"}
             />
@@ -34,8 +34,8 @@ class Review extends Component {
           
           <div>
           <img
-            src="/img/review-photo.jpg"
-            className="review"
+            src={require("../img/review-photo.jpg")}
+            className="review-girl"
             alt={"review"}
           />
           <h3>Joe Ma</h3>

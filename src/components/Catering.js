@@ -16,7 +16,7 @@ class Catering extends Component {
           <div className="catering__box">
           <div className="discover-images">
             <img
-              src="/img/pizza.jpg"
+              src={require("../img/pizaa-2.jpg")}
               className="pizza"
               alt={"pizza"}
             />

@@ -12,7 +12,7 @@ class Discover extends Component {
               <h3>Discover</h3>
               <h2>The Restaurant</h2>
               <img
-                src="/img/d-line.png"
+                src= {require('../img/d-line.png')}
                 className="stylish-line"
                 alt={"stylish-line"}
               />
@@ -27,14 +27,14 @@ class Discover extends Component {
                 4P.M. Delivery and Set-Up Fee of $25..
               </p>
               <img
-                src="/img/d-signature.png"
+                src={require("../img/d-signature.png")}
                 className="signature"
                 alt={"signature"}
               />
             </div>
             <div className="discover-images">
               <img
-                src="/img/d-foodie-basket.png"
+                src={this.props.myImg}
                 className="foodie-basket"
                 alt={"foodie-basket"}
               />

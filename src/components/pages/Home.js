@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import homeImage from '../../img/d-foodie-basket.png'
 import TopSection from '../TopSection'
 import Discover from '../Discover'
 import Catering from '../Catering'
@@ -14,7 +15,7 @@ export default class Home extends Component {
         return (
             <div>
                 <TopSection />
-                <Discover />
+                <Discover myImg={homeImage} />
                 <Catering />
                 <OurMenu />
                 <Recommend />

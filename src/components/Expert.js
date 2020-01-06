@@ -9,7 +9,7 @@ class Experts extends Component {
           <h3>Amaging</h3>
           <h2>Kitchen Experts</h2>
           <img
-            src="/img/d-line.png"
+            src={require("../img/d-line.png")}
             className="stylish-line"
             alt={"stylish-line"}
           />
@@ -19,8 +19,8 @@ class Experts extends Component {
             <div className="expert-details">
               <div className="image-box">
                 <img
-                  src="/img/expert-chef-01.png"
-                  className="expert"
+                  src={require("../img/expert-chef-01.png")}
+                  className="expert-chef"
                   alt={"expert"}
                 />
               </div>
@@ -40,8 +40,8 @@ class Experts extends Component {
             <div className="expert-details">
               <div className="image-box">
                 <img
-                  src="/img/expert-chef-04.png"
-                  className="expert"
+                  src={require("../img/expert-chef-04.png")}
+                  className="expert-chef"
                   alt={"expert"}
                 />
               </div>
@@ -61,8 +61,8 @@ class Experts extends Component {
             <div className="expert-details">
               <div className="image-box">
                 <img
-                  src="/img/expert-chef-01.png"
-                  className="expert"
+                  src={require("../img/expert-chef-01.png")}
+                  className="expert-chef"
                   alt={"expert"}
                 />
               </div>
@@ -82,8 +82,8 @@ class Experts extends Component {
             <div className="expert-details">
               <div className="image-box">
                 <img
-                  src="/img/expert-chef-04.png"
-                  className="expert"
+                  src={require("../img/expert-chef-04.png")}
+                  className="expert-chef"
                   alt={"expert"}
                 />
               </div>
