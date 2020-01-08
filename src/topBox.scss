@@ -1,0 +1,19 @@
+.topBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-image:linear-gradient(rgba(22,22,22, 0.6),rgba(22,22,22, 0.6)) ,
+    url("http://www.anmolqf.com/wp-content/uploads/2017/09/organic1.jpg");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover; 
+   text-align: center;
+
+ &__heading{
+ color: $primary-color;
+ font-family: "Herr Von Muellerhoff", cursive;
+ font-size: 74px;
+ }
+
+}

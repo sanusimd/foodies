@@ -8,6 +8,7 @@ import Recommend from '../Recommend'
 import Review from '../Review'
 import Expert from '../Expert'
 import Reservation from '../Reservation'
+// import Map from '../Map'
 import Footer from '../Footer'
 
 export default class Home extends Component {
@@ -22,6 +23,7 @@ export default class Home extends Component {
                 <Review />
                 <Expert />
                 <Reservation />
+                {/* <Map /> */}
                 <Footer />
             </div>
         )

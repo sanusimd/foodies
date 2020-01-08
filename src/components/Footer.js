@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+// import Map from './Map'
 // import { Map, InfoWindow, Marker, GoogleApiWrapper } from "google-maps-react";
 
 class Footer extends Component {
@@ -16,24 +17,7 @@ class Footer extends Component {
     // };
     return (
       <section className="footer">
-        <div className="footer__mapbox">
-          <div className="footer__mapbox--map"></div>
-          <div className="footer__mapbox--info">
-          <img
-              src={require("../img/logo.png")}
-              className="footer-logo"
-              alt={"footer-logo"}
-              
-            />
-            <h3>Location</h3>
-            <img
-              src={require("../img/d-line.png")}
-              className="stylish-line"
-              alt={"stylish-line"}
-            />
-            <p>45-47 Babangida Avenue Lekki Lagos Nigeria</p>
-          </div>
-        </div>
+        {/* <Map />        */}
         <div className="container">
           <div className="footer__box">
             <div className="box footer__box--about">
