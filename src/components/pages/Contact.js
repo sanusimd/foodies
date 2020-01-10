@@ -16,6 +16,8 @@ class Contact extends Component {
             maintitle="Message us" 
             subtitle="Leave a Message" 
             />
+
+            <h1>Contact Form Here</h1>
             
         </div>
         <Footer />
