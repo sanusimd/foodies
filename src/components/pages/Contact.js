@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import TopBox from "../TopBox";
 import HeadingStyle from "../HeadingStyle";
 import Map from "../Map";
+import ContactForm from '../ContactForm'
 import Footer from "../Footer"
 
 class Contact extends Component {
@@ -17,7 +18,7 @@ class Contact extends Component {
             subtitle="Leave a Message" 
             />
 
-            <h1>Contact Form Here</h1>
+            <ContactForm />
             
         </div>
         <Footer />

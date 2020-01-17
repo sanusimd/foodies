@@ -13,8 +13,11 @@ class Menu extends Component {
         <HeadingStyle maintitle="Breakfast" subtitle="Food for Morning" />
         <MenuItems />
         <div className="menuLunch">
-        <HeadingStyle maintitle="Lunch" subtitle="Delicious Lunch items" />
-        <MenuItems />
+        <HeadingStyle 
+        maintitle="Lunch" 
+        subtitle="Delicious Lunch items" colors="white"
+        />
+        <MenuItems  pColor="white" />
         </div>
         <HeadingStyle maintitle="Dinner" subtitle="The Mael of the Day" />
         <MenuItems />

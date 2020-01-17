@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+// import car from '../img/top-section-slider-01.jpg'
 
 class Review extends Component {
   constructor() {
@@ -9,8 +10,9 @@ class Review extends Component {
   }
 
   render() {
+    
     return (
-      <section className="review">
+      <section className="review" >
         <div className="review-star">
           <i className="fas fa-star"></i>
           <i className="fas fa-star"></i>
@@ -31,16 +33,16 @@ class Review extends Component {
               alt={"stylish-line"}
             />
           </div>
-          
+
           <div>
-          <img
-            src={require("../img/review-photo.jpg")}
-            className="review-girl"
-            alt={"review"}
-          />
-          <h3>Joe Ma</h3>
+            <img
+              src={require("../img/review-photo.jpg")}
+              className="review-girl"
+              alt={"review"}
+            />
+            <h3>Joe Ma</h3>
           </div>
-          
+
           <div className=" dot-box">
             <div className="dot"></div>
             <div className="dot"></div>

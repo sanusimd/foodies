@@ -5,7 +5,9 @@ class Map extends Component {
     return (
       <div className="map-container"> 
         <div className="mapbox">
-          <div className="mapbox--map"></div>
+          <div className="mapbox--map">
+            
+          </div>
           <div className="mapbox--info">
             <img
               src={require("../img/logo.png")}
